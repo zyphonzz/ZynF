@@ -1,10 +1,10 @@
 local zyn={
-    lvl=8.1
+    lvl=getidentity()+2.1
 }
 _G.execservice={
 
 }
-function _G.execservice.runscriptfromurl(url) -- LITERALLY JUST LOADSTRING + GAME:HTTPGET :sob:
+function _G.execservice.runscriptfromurl(url) -- LITERALLY JUST LOADSTRING + GAME:HTTPGET
 	loadstring(game:HttpGet(url))()
 end
 _G.scripthub={
@@ -1740,6 +1740,12 @@ getgenv().patchma_hub=function()
 end
 getgenv().moreunc=function()
 	runscriptfromurl(scripthub.moreunc)
+end
+getgenv().getplayerinfo=function()
+	_G.getplayerinfo()
+end
+getgenv().printidentity=function()
+	_G.printidentity()
 end
 print([[
 
