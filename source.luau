@@ -4,8 +4,8 @@ local zyn={
 _G.execservice={
 
 }
-function _G.execservice.runscriptfromsite(script)
-	loadstring(game:HttpGet(script))()
+function _G.execservice.runscriptfromurl(url) -- LITERALLY JUST LOADSTRING + GAME:HTTPGET :sob:
+	loadstring(game:HttpGet(url))()
 end
 _G.scripthub={
 	nameless_admin='https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/Source';
