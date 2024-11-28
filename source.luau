@@ -1712,9 +1712,38 @@ end
 function _G.namelessadmin()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/Source"))();
 end
+getgenv().execservice=_G.execservice
+getgenv().runscriptfromurl=function(url)
+	_G.execservice.runscriptfromurl(url)
+end
+getgenv().scripthub=_G.scripthub
+getgenv().lighting=_G.lighting
+getgenv().lighting.presets=_G.lighting.presets
+getgenv().lighting.loadpreset=function(preset)
+	_G.lighting.loadpreset(preset)
+end
+getgenv().nameless_admin=function()
+	runscriptfromurl(scripthub.nameless_admin)
+end
+getgenv().infinite_yield=function()
+	runscriptfromurl(scripthub.infinite_yield)
+end
+getgenv().dex=function()
+	runscriptfromurl(scripthub.dex)
+end
+getgenv().frontlines=function()
+	runscriptfromurl(scripthub.frontlines)
+end
+getgenv().patchma_hub=function()
+	game=workspace.Parent
+	runscriptfromurl(scripthub.patchma_hub)
+end
+getgenv().moreunc=function()
+	runscriptfromurl(scripthub.moreunc)
+end
 print([[
 
-Armed Zynf.
+Armed Zynf
 
 ---------------
 
