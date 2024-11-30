@@ -4,7 +4,7 @@ local zyn={
 _G.execservice={
 
 }
-function _G.execservice.runscriptfromurl(url) -- LITERALLY JUST LOADSTRING + GAME:HTTPGET
+function _G.execservice.runscriptfromurl(url)
 	loadstring(game:HttpGet(url))()
 end
 _G.scripthub={
