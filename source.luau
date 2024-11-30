@@ -1747,6 +1747,12 @@ end
 getgenv().printidentity=function()
 	_G.printidentity()
 end
+getgenv().testvulns=function()
+	_G.testvulns()
+end
+getgenv().testunc=function()
+	_G.testunc()
+end
 print([[
 
 Armed Zynf
