@@ -1,4 +1,4 @@
-!!    ZynF is made for Zerion Premium. This doesnt work with atlantis, it should work with wave, it wont work with solara, it wont work with xeno.   !!
+ZynF is made for Zerion Premium. This doesnt work with atlantis, it should work with wave, it wont work with solara, it wont work with xeno.
 
 ![image](https://github.com/user-attachments/assets/3f441056-0b97-42d6-9cb6-82a5a8a53232)
 
